@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <title>Contato</title>
+</head>
+<body>
+    <main class="main-convert">
+        <nav>
+            <a href="./footer.html" class="btn btn1">Início</a>
+            <a href="./qr-code.html" class="btn btn2">Qr Code</a>
+            <a href="./conversor.html" class="btn btn3">Conversor de Moedas</a>
+            <a href="./crypto.html" class="btn btn4">Criptografador</a>
+            <a href="./contact.html" class="btn btn5">Contato</a>
+        </nav>
+
+        <div class="formularioContato">
+
+            <h1 class="h1-form">Fale Conosco</h1>
+            
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="812fdf84-2c96-4d82-b94a-e7bbb62ffecd">
+                <label>
+                    <span><i class="icon icon-user-1"></i> Nome</span>
+                    <input id="nome" placeholder="Digite seu nome" type="text" name="name" required>
+                </label>
+                <label>
+                    <span id="span-email"><i class="icon icon-email"></i> E-mail</span>
+                    <input class="fade_8S" id="email" placeholder="Digite seu E-mail" type="email" name="email" required>
+                </label>
+                <label>
+                    <span><i class="icon icon-comment"></i> Mensagem</span>
+                    <textarea id="mensagem" rows="3" placeholder="Digite sua mensagem" name="message" required></textarea>
+                </label>
+                <button id="btn-form" class="btn-envia" type="submit" title="Enviar"><b class="icon icon-paper-plane-o">Enviar</button>
+            
+            </form>
+
+        </div>
+    </main>
+</body>
+<script src="./form-valid.js" defer></script> 
+</html>
