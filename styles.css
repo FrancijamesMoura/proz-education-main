@@ -1126,5 +1126,20 @@ aside img {
 }
 
 #h3-tx{
-  
+   
+}
+
+@media screen and (max-width: 900px){
+    .container {
+        max-width: 287px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 8px;
+        height: 317px;
+    }
+
+    .glow-on-hover {
+        margin-left: 10px;
+    }
 }
