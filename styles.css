@@ -994,6 +994,8 @@ section {
     display: flex;
     position: relative;
     margin-left: 100px;
+    
+    
     /* max-width: min-content; */
 }
 
@@ -1110,4 +1112,19 @@ aside img {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
+}
+
+
+#tx-01:hover {
+    opacity: 0.4;
+}
+#tx-02:hover {
+    opacity: 0.4;
+}
+#tx-03:hover {
+    opacity: 0.4;
+}
+
+#h3-tx{
+  
 }
