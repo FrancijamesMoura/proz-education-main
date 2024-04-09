@@ -683,8 +683,7 @@ section {
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
-    max-width: 940px;
-    
+    max-width: 100%;
     
   }
   
@@ -971,9 +970,10 @@ section {
   
   .section-cont{
     flex-direction: row;
-    flex-wrap: wrap;
-    max-width: min-content;
-    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
     
  
   }
@@ -998,17 +998,56 @@ section {
 }
 
 .img-section {
-    
-}
-
- /* Estilização ASIDE */
-
-aside{
-    color: white;
     margin-left: 150px;
     justify-content: space-between;
     display: flex;
     align-items: flex-start;
+}
+
+ /* Estilização ASIDE */
+
+ aside {
+    color: white;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.text-content {
+     margin-top: 20px;  /*Espaçamento entre a imagem e o texto  */
+     
+}
+
+aside img {
+    width: 100px;  /*Ajuste o tamanho da imagem conforme necessário  */
+    height: auto;
+}
+
+/* ESTILIZAÇÃO COM ID DAS IMG */
+
+#img-01{
+    width: 700px;
+    
+}
+
+#img-02{
+    width: 250px;
+}
+
+#img-03{
+    width: 180px;
+}
+
+
+.button-cliq {
+    margin-top: 20px;  Espaçamento entre o texto e o botão 
 }
 
 .button-cliq {
@@ -1023,7 +1062,6 @@ aside{
     z-index: 0;
     border-radius: 10px;
     margin-left: 50px;
-    
 }
 
 .button-cliq:before {
