@@ -589,3 +589,95 @@ footer{
     box-sizing: border-box;
     font-weight: 700;
   }
+
+  @media screen and (max-width: 900px){
+  
+    .section-textxs-areas {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      
+      /* editar responsividade */
+      
+      /* max-width: 287px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 8px;
+        height: 317px; */
+    }
+
+
+    nav {
+      display: flex;
+      font-size: 17px;
+      flex-direction: column;
+      height: 40vh;
+      margin-left: 0;
+      
+  }
+
+  .btn {
+    border: none;
+    overflow: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+  }
+
+  .section-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .caixa-text{
+    max-width: 399px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
+  h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .convert-button{
+    width: 155px;
+    font-weight: 70;
+  }
+
+  footer {
+    width: 100%;
+    justify-content: center
+}
+
+p.footer-description-failory {
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    font-family: Lato, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: .5px;
+    line-height: 1.5em;
+    margin-bottom: 16px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+div.footer-column.w-col.w-col-8 {
+    padding-left: 0;
+    
+}
+
+p.footer-links {
+    letter-spacing: 0;
+    line-height: 0;
+}
+
+}   

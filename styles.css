@@ -1142,4 +1142,80 @@ aside img {
     .glow-on-hover {
         margin-left: 10px;
     }
+
+    nav {
+        display: flex;
+        font-size: 17px;
+        flex-direction: column;
+        height: 40vh;
+    }
+
+    .btn{
+        border: none;
+        overflow: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 0;
+        
+    }
+
+    .section-cont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .section-cont h1{
+        margin-left: 0;
+        display: flex;
+        text-align: center;
+    }
+
+    .section-cont h3{
+        display: flex;
+        text-align: center;
+        margin-left: 0;
+        max-width: 340px;
+    }
+
+    .img-section{
+        margin-left: 0;
+    }
+    
+    aside{
+        margin-left: 0px;
+        display: inline-block;
+    }
+
+    footer {
+        width: 100%;
+        justify-content: center
+    }
+
+    p.footer-description-failory {
+        box-sizing: border-box;
+        color: rgba(255, 255, 255, 0.8);
+        display: block;
+        font-family: Lato, sans-serif;
+        font-size: 17px;
+        font-weight: 300;
+        letter-spacing: .5px;
+        line-height: 1.5em;
+        margin-bottom: 16px;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    div.footer-column.w-col.w-col-8 {
+        padding-left: 0;
+        
+    }
+
+    p.footer-links {
+        letter-spacing: 0;
+        line-height: 0;
+    }
+    
 }
